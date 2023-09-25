@@ -59,5 +59,17 @@ const cabLowToHigh = function (data) {
   return data.sort((a, b) => a.cab - b.cab);
 };
 
-// change the function name to check every fuction in the console.
+// print the json  to check every function in the console.
+console.log(allFoodItems(data));
+console.log(vegetables(data));
+console.log(fruits(data));
+console.log(protein(data));
+console.log(nuts(data));
+console.log(grains(data));
+console.log(dairy(data));
+console.log(calorieAbove100(data));
+console.log(calorieBelow100(data));
 console.log(proteinHighToLow(data));
+console.log(cabLowToHigh(data));
+
+
